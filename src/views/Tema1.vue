@@ -6,24 +6,41 @@
       .titulo-principal__numero
         span 1
       h1 Análisis de la información presupuestal
-    .row
-      .col-10.mb-5
-        .jumbotron
-          .row.justify-content-center.align-items-center
-            .col-6
-                p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
-            .col-12.col-md-8.col-lg-2.col-xl-4
-              img(src="@/assets/curso/images/tema1/img_1.png" alt="", style="width:350px; display:block; margin:-6rem 15rem;")
-    p.BorTit.mb-5 Figura 1 Análisis de gastos
     br
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.mb-5
-        .jumbotron
-          .row.justify-content-center.align-items-center
-            .col-12.col-md-8.col-lg-2.col-xl-4
-              img(src="@/assets/curso/images/tema1/img_2.svg" alt="", style="width:350px; display:block; margin:-6rem -7rem;")
-            .col-6
-                p Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia. 
+    br
+    .row.align-items-center.fondo-9.p-3.mb-5.d-none.d-lg-block
+      .col-lg-8.mb-3.mb-lg-0.d-none.d-lg-block
+        p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
+        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 45rem;")
+    .row.mb-5
+      .col-lg-11.d-block.d-lg-none
+        .tarjeta-avatar
+          img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop')
+          .tarjeta.fondo-14
+            .p-4
+              p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
+      
+    p.BorTit.mb-5 Figura 1 Análisis de gastos
+  
+    .row
+      .col-lg-12.d-none.d-lg-block
+        .row.d-none.d-lg-block
+          .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
+            img(src="@/assets/curso/images/tema1/img_2.svg" alt="AvatarTop", style="width:470px; display:block; margin:-1rem -1rem;")
+        .row.justify-content-right.fondo-13.p-3.mb-5
+          .col-lg-3
+            p 
+          .col-lg-9.mb-3.mb-lg-0
+            p Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia. 
+    .row.mb-5
+      .col-lg-11.d-block.d-lg-none
+        .tarjeta-avatar
+          img(src="@/assets/curso/images/tema1/img_2.svg" alt='AvatarTop')
+          .tarjeta.fondo-14
+            .p-4
+              p Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia. 
     Separador 
     #t_1_1.titulo-segundo
       .h4 1.1 Análisis del ciclo contable
@@ -55,7 +72,67 @@
     #t_1_2.titulo-segundo
       .h4 1.2 Análisis e interpretación del presupuesto
     
-    SlyderD.mb-5(:datos="datosSlyder")
+    SlyderE(indicadores="derecha")
+      .row.fondo-10.p-5
+        .col-md-6.mb-4.mb-md-0
+          p.mb-3 El análisis del presupuesto es un proceso mediante el cual cada cierto periodo de tiempo se evalúa un rubro, ciertos rubros o todo el presupuesto, dependiendo la política financiera implementada por la empresa o negocio, para comprobar que se está ejecutando según lo planeado. 
+
+          h5 Ejemplo de rubros: 
+
+          .row 
+            .col-lg-3.mb-3.mb-lg-0
+              p.mb-3 <b>Ingresos</b>
+                .row
+                  ul.lista-ul--color
+                    li 
+                      i.fab.fa-jira
+                      | Ventas de contado
+                    li 
+                      i.fab.fa-jira
+                      | Ventas a crédito
+                    li 
+                      i.fab.fa-jira
+                      | Devoluciones
+            .col-lg-3.mb-3.mb-lg-0
+              p.mb-3 <b>Gastos</b>
+                .row
+                  ul.lista-ul--color
+                    li 
+                      i.fab.fa-jira
+                      | Papelería
+                    li
+                      i.fab.fa-jira
+                      | Arriendos
+
+            .col-lg-3.mb-3.mb-lg-0
+              p.mb-3  <b>Costos</b>
+                  .row
+                    ul.lista-ul--color
+                      li 
+                        i.fab.fa-jira
+                        | Nómina operativa
+                      li 
+                        i.fab.fa-jira
+                        | Acero
+                      li 
+                        i.fab.fa-jira
+                        | Plástico 
+        .col-md-6.mb-4.mb-md-0
+          img(src="@/assets/curso/images/tema1/img_21.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+
+      .row.fondo-10.p-5
+        .col-md-6.mb-4.mb-md-0
+          p.mb-3 En este proceso se busca las áreas problemáticas para plantear acciones de mejora que minimicen las pérdidas y así subsanar a tiempo, gastos que pueden conllevar a un detrimento patrimonial. 
+
+          p.mb-3 También con el análisis e interpretación se busca el grado de cumplimiento y así verificar una óptima administración de los recursos financieros. 
+        .col-md-6.mb-4.mb-md-0
+          img(src="@/assets/curso/images/tema1/img_22.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+
+      .row.fondo-10.p-5
+        .col-md-6.mb-4.mb-md-0
+          p Generalmente al empezar a proyectar un presupuesto se debe proponer los objetivos y metas, para facilitar que la trazabilidad sea medible y así, los análisis realizados de las acciones de mejora sean proporcionales a los resultados del seguimiento realizado. 
+        .col-md-6.mb-4.mb-md-0
+          img(src="@/assets/curso/images/tema1/img_23.svg" alt="", style="width:400px; display:block; margin:0 auto;")
 
     p.mb-3 Teniendo clara la información anterior, estudie un ejemplo de presupuesto y realice su respectivo análisis.
 
@@ -132,32 +209,30 @@
 
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
           img.my-3(src="@/assets/curso/images/tema1/img_12.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
-
+ 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.mb-5
-        .jumbotron
-          .row.justify-content-center.align-items-center
-            .col-12.col-md-8.col-lg-2.col-xl-4
-              img(src="@/assets/curso/images/tema1/img_13.svg" alt="", style="width:350px; display:block; margin:-2rem -10rem;")
-            .col-6
-              p.mb-3 ¿Por qué es importante medir? 
-
+      .col-lg-10
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:450px; display:block; margin:0 auto;")
+          .tarjeta.color-avatar
+            .p-4
+              h2 ¿Por qué es importante medir? 
               p Porque permite interpretar lo que está ocurriendo en la organización y tomar las medidas necesarias cuando las variables se salen de los límites, para evaluar las consecuencias en el menor tiempo posible y definir los cambios que conlleven a mejoras inmediatas o mejoras proyectadas en el tiempo.  
+    p Los criterios para satisfacer los indicadores deben ser: 
+      .row.justify-content-center.align-items-center.p-4
+        ul.lista-ul--color
+          li 
+            i.fab.fa-jira
+            | Medibles.
+          li 
+            i.fab.fa-jira
+            | Entendibles.
+          li 
+            i.fab.fa-jira
+            | Controlables. 
 
-    p.mb-3 Los criterios para satisfacer los indicadores deben ser: 
-
-      ul.lista-ul--color
-        li 
-          i.fab.fa-jira
-          | Medibles.
-        li 
-          i.fab.fa-jira
-          | Entendibles.
-        li 
-          i.fab.fa-jira
-          | Controlables. 
-
-        p.mb-3 Los tipos de indicadores de gestión son:
+    p.mb-3 Los tipos de indicadores de gestión son:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
@@ -207,24 +282,108 @@
     #t_1_4.titulo-segundo
       .h4 1.4 Excel y otras herramientas para la elaboración del presupuesto
 
-    
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
+    p.mb-5 La hoja de cálculo más utilizada en la elaboración de presupuestos es Excel. En el siguiente video se hace una presentación de este programa.
 
-    
-    Muestras
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+
+    p.mb-5 Son infinitas las características o atributos de una herramienta digital como Excel, pero solo se mencionan las más utilizadas:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.lg-6.mb-5.mb-lg-0
+        .jumbotron-2
+          LineaTiempoB.fondo.p-4.mb-5(:datos="datosLineaTiempoB")
+
+        p.mb-3 Del nivel de manejo y experticia de cada usuario dependerá la magnitud y aprovechamiento de esta aplicación, desde presupuestos sencillos en una tabla pequeña hasta modelos financieros mediante programación especializada, una herramienta dispuesta a desarrollar operaciones según la demanda de las personas. 
+
+        p.mb-5 Además de Excel, existen infinidad de herramientas útiles con diferentes modalidades y aplicaciones, según cada necesidad y/o situación empresarial o personal, a continuación se mencionan algunos ejemplos:
+        
+    .row.justify-content-center.align-items-center.mb-5
+      .col-2.lg-4.mb-5.mb-lg-0
+        ul.lista-ul--color
+          li 
+            i.fab.fa-jira
+            | AceMoney Lite.
+          li 
+            i.fab.fa-jira
+            | Zureo Home.
+          li 
+            i.fab.fa-jira
+            | Cegit.
+          li 
+            i.fab.fa-jira
+            | PIM Xtreme.
+      
+      .col-8.mt-5.ms-5
+        .tarjeta.color-custom-2.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/images/tema1/ico_9.svg", alt= "",style="width:150px; display:block; margin:0 auto;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1.text-white Documento: Presupuesto familiar
+                  p.text-small.text-white  En el presente archivo encontrará una plantilla básica, que le permitirá realizar ejercicios básicos en Excel, sobre la planeación de un presupuesto familiar. 
+                .col-sm-auto
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+    Separador 
+    #t_1_5.titulo-segundo
+      .h4 1.5 Ética y responsabilidad
+    p.mb-3 En el mercado financiero el comportamiento moral y ético de un profesional va más allá de la posición individual-personal del ser humano. Por ello, es importante como profesional tener en cuenta algunas características que van ligadas a la realización de actividades laborales dentro de un negocio u organización, como se muestra en la siguiente figura:
+      .jumbotron-3
+        .row.justify-content-center.align-items-center.fondo-2.p-4.mb-5
+          .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+            p.BorTit.mb-5 Figura 4 Etica profesional
+            figure
+              img(src='@/assets/curso/images/tema1/img_18.svg' alt="", style="width:450px; display:block; margin:auto 0;")
+          .col-lg-6.mb-5.mb-lg-0  
+            br
+            p.mb-3 Para la elaboración de un presupuesto, para realizar el seguimiento y para proponer mejoras, es importante que los responsables tanto de proyectar como de auditar, deben siempre pensar en el bienestar de la organización y del entorno, más del propio como persona. 
+
+            p.mb-3 Por este motivo, la transparencia, la honestidad, el sentido de pertenencia y la buena fe son competencias permanentes en las personas encargadas del presupuesto. De ellos depende que la información, el comportamiento y la tendencia del ejercicio financiero dependa de funciones realizadas con total responsabilidad ético y profesional. 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12
+        .bloque-texto-a.color-tarjeta-2.p-3.mb-5
+          .row.m-4.align-items-center.justify-content-between
+              .col-lg-5.mb-4.mb-lg-12
+                    p.mb-3 <b> Estas premisas siempre serán primordiales para un profesional encargado del área presupuestal:</b>
+              .col-lg-7
+                .bloque-texto-a__texto.p-4
+                  .col-sm.mt-3   
+                     ul.lista-ul--color
+                        li 
+                          i.fab.fa-jira
+                          | Conseguir claridad en todos los actos.
+                        li 
+                          i.fab.fa-jira
+                          | Lograr altos niveles de competencia profesional e integridad profesional.
+                        li 
+                          i.fab.fa-jira
+                          | Evitar, prevenir y gestionar los conflictos de interés.
+                        li 
+                          i.fab.fa-jira
+                          | Revelar conflictos de interés a la dependencia encargada.
+
+    p.mb-3 Aunque no existen normas o reglas morales únicas o estandarizadas, cada organización posee su código de ética y su política financiera y contable, es así que, al asumir ciertos roles profesionales, deben siempre actuar de manera conjunta a las políticas que profesa la organización y el Estado. 
+
+    p.mb-5 Hoy en día, gracias al gran crecimiento de plataformas financieras digitales se ha cuestionado el concepto de ética y responsabilidad global, porque muchas veces prevalece el crecimiento exponencial financiero de un producto, afectando un entorno o comunidad, y es ahí donde el actuar debe ser íntegro y desligado a intereses personales, porque no solo una omisión de información, sino una mala decisión puede llevar a la quiebra a una empresa y/o nación.
+
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.mb-5.mb-lg-0
+            img(src="@/assets/curso/images/tema1/img_20.svg" alt="", style="width:1000px; display:block; margin:0 auto;")
+
+
+
+
+
+
+
+
   
 </template>
 
@@ -236,25 +395,54 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    datosSlyder: [
+    datosLineaTiempoB: [
       {
         titulo: '',
         texto:
-          'El análisis del presupuesto es un proceso mediante el cual cada cierto periodo de tiempo se evalúa un rubro, ciertos rubros o todo el presupuesto, dependiendo la política financiera implementada por la empresa o negocio, para comprobar que se está ejecutando según lo planeado. <br></br> <b>Ejemplo de Rubros</b><br></br><b> Ingresos </b><br></br><ol class="lista-ol--cuadro"> <li><div class="lista-ol--cuadro__vineta"><span>1</span></div>Ventas de contado</li><li><div class="lista-ol--cuadro__vineta"><span>2</span></div>Ventas a crédito.</li></ul>',
-        imagen: require('@/assets/curso/images/tema1/img_5.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
+          'Optimiza el tiempo en el que antes un usuario tenía que registrar en libros físicos.',
+        icono: require('@/assets/curso/images/tema1/ico_1.svg'),
       },
       {
         titulo: '',
         texto:
-          'En este proceso se busca las áreas problemáticas para plantear acciones de mejora que minimicen las pérdidas y así subsanar a tiempo, gastos que pueden conllevar a un detrimento patrimonial. <br>También con el análisis e interpretación se busca el grado de cumplimiento y así verificar una óptima administración de los recursos financieros.',
-        imagen: require('@/assets/curso/images/tema1/img_6.svg'),
+          'Permite almacenar grandes cantidades de información, garantizando un respaldo ante contingencias y riesgos de pérdida de información.Minimiza el tiempo de los resultados de operaciones, para realizar análisis y toma de decisiones.',
+        icono: require('@/assets/curso/images/tema1/ico_2.svg'),
       },
       {
         titulo: '',
         texto:
-          'Generalmente al empezar a proyectar un presupuesto se debe proponer los objetivos y metas, para facilitar que la trazabilidad sea medible y así, los análisis realizados de las acciones de mejora sean proporcionales a los resultados del seguimiento realizado.',
-        imagen: require('@/assets/curso/images/tema1/img_7.svg'),
+          'Permite personalizar los presupuestos según la manera de trabajo del usuario, negocio o compañía.',
+        icono: require('@/assets/curso/images/tema1/ico_3.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          'Ofrece utilidades adicionales para facilitar la interpretación de resultados como gráficos estadísticos, imágenes, etc.',
+        icono: require('@/assets/curso/images/tema1/ico_4.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          'Contiene componentes avanzados como la programación de macros, que robustece el manejo de información más precisa y exacta. Su infinidad de fórmulas permite aplicar operaciones para cada tipo de necesidad. ',
+        icono: require('@/assets/curso/images/tema1/ico_5.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          'Puede integrar la información de varios usuarios, esto sucede cuando este aplicativo se encuentra en la plataforma de Internet, en la que varios operadores pueden acceder a un mismo archivo.',
+        icono: require('@/assets/curso/images/tema1/ico_6.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          'Facilita el diseño de presupuestos para  su lectura e interpretación, gracias a formatos de celdas, tablas, tablas dinámicas, bordes, sombreados, etc. Puede contener varias base de datos de presupuestos y otros archivos que pueden ser insumo como datos de ingreso, evitando la duplicidad de información como base datos de ventas, de gastos, etc.',
+        icono: require('@/assets/curso/images/tema1/ico_7.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          'Garantiza un alto porcentaje de exactitud en los resultados, facilitando el análisis y la aplicación de acciones de mejora y, asegurando que la productividad de los usuarios sea mayor.',
+        icono: require('@/assets/curso/images/tema1/ico_8.svg'),
       },
     ],
   }),
