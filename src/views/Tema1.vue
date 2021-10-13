@@ -13,7 +13,7 @@
         p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
-        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 45rem;")
+        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 51rem;")
     .row.mb-5
       .col-lg-11.d-block.d-lg-none
         .tarjeta-avatar
