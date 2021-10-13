@@ -406,9 +406,12 @@
                           i.fab.fa-jira
                           | Revelar conflictos de interés a la dependencia encargada.
 
-    p.mb-3 Aunque no existen normas o reglas morales únicas o estandarizadas, cada organización posee su código de ética y su política financiera y contable, es así que, al asumir ciertos roles profesionales, deben siempre actuar de manera conjunta a las políticas que profesa la organización y el Estado. 
-
-    p.mb-5 Hoy en día, gracias al gran crecimiento de plataformas financieras digitales se ha cuestionado el concepto de ética y responsabilidad global, porque muchas veces prevalece el crecimiento exponencial financiero de un producto, afectando un entorno o comunidad, y es ahí donde el actuar debe ser íntegro y desligado a intereses personales, porque no solo una omisión de información, sino una mala decisión puede llevar a la quiebra a una empresa y/o nación.
+    p.mb-5 Aunque no existen normas o reglas morales únicas o estandarizadas, cada organización posee su código de ética y su política financiera y contable, es así que, al asumir ciertos roles profesionales, deben siempre actuar de manera conjunta a las políticas que profesa la organización y el Estado. 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-md-8.col-lg-8.col-xl-10
+        .cajon.color-custom.p-4.mb-4
+          p.mb-0 Hoy en día, gracias al gran crecimiento de plataformas financieras digitales se ha cuestionado el concepto de ética y responsabilidad global, porque muchas veces prevalece el crecimiento exponencial financiero de un producto, afectando un entorno o comunidad, y es ahí donde el actuar debe ser íntegro y desligado a intereses personales, porque no solo una omisión de información, sino una mala decisión puede llevar a la quiebra a una empresa y/o nación.
 
     .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.mb-5.mb-lg-0
