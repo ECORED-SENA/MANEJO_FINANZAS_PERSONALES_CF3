@@ -270,13 +270,13 @@
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
         .jumbotron.p-3
           h4 Indicadores de eficiencia
-            p.mb-3 Se debe tener en cuenta que la eficiencia tiene que ver con la capacidad de cumplimiento  y actitud para llevar a cabo una tarea, con el mínimo de los recursos; los cuales están relacionados con la razón que indican los recursos invertidos en el  logro de tareas.
+            p.mb-2 Se debe tener en cuenta que la eficiencia tiene que ver con la capacidad de cumplimiento  y actitud para llevar a cabo una tarea, con el mínimo de los recursos; los cuales están relacionados con la razón que indican los recursos invertidos en el  logro de tareas.
 
             p <b>Ejemplo:</b> tiempo de fabricación de un producto u entrega de proyecto.
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
         .jumbotron.p-4
           h4 Indicadores de eficacia
-            p.mb-4 La eficacia se relaciona en conseguir los resultados esperados de forma satisfactoria, tienen como relación las razones que indican la capacidad o acierto en la consecución de los trabajos.
+            p.mb-5 La eficacia se relaciona en conseguir los resultados esperados de forma satisfactoria, tienen como relación las razones que indican la capacidad o acierto en la consecución de los trabajos.
 
           p <b>Ejemplo:</b> la satisfacción del cliente con relación a los pedidos.
     .row
