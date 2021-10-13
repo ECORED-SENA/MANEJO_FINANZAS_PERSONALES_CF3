@@ -88,7 +88,7 @@
         p.mb-3 Si la organización plantea llevar a cabo un análisis de escenarios sobre el rendimiento del negocio, puede evaluar las distintas situaciones a futuro tomando en cuenta variables como: los proyectos, los clientes y el comportamiento regional que han sido más rentables o menos rentables a lo largo de cierto periodo de tiempo.
 
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-          img.my-3(src="@/assets/curso/images/tema2/img_3.svg", alt= "",style="width:450px; display:block; margin:0 auto;") 
+          img.my-3(src="@/assets/curso/images/tema2/img_3.svg", alt= "",style="width:550px; display:block; margin:0 auto;") 
       
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-tarjeta-3.p-4

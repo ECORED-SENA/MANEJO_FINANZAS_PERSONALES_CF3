@@ -8,12 +8,13 @@
       h1 Análisis de la información presupuestal
     br
     br
+    br
     .row.align-items-center.fondo-9.p-3.mb-5.d-none.d-lg-block
-      .col-lg-8.mb-3.mb-lg-0.d-none.d-lg-block
+      .col-lg-10.mb-3.mb-lg-0.d-none.d-lg-block
         p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
-        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 51rem;")
+        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 46rem;")
     .row.mb-5
       .col-lg-11.d-block.d-lg-none
         .tarjeta-avatar
@@ -69,6 +70,9 @@
       p.mb-3 Gracias a lo anterior, se pudo verificar que existió utilidad entre el producto comprado y vendido; es así que las decisiones tomadas ya parten con base en los resultados positivos, que serán punto de partida para el siguiente ciclo contable.
 
     Separador 
+
+    p.mb-5 El siguiente recurso presenta qué es el análisis de presupuesto, cuál es su interpretación y lo que se debe tener presente en el momento de comenzar a proyectar un presupuesto.
+    
     #t_1_2.titulo-segundo
       .h4 1.2 Análisis e interpretación del presupuesto
     
@@ -140,7 +144,7 @@
       .row
         .col-md-6
           figure
-            img(src="@/assets/curso/images/tema1/img_8.svg",  alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_8.svg",  alt="", style="width:300px; display:block; margin:0 auto;")
         .col-md-6.mb-4.mb-md-0
           p Se tiene ideado hacer una fiesta, por lo que hay unos valores que se han ido recogiendo gracias a una investigación de mercado, tales como:
           ul.lista-ul--color
@@ -172,13 +176,13 @@
                 | Logística: $5.000
         .col-md-6
           figure
-            img(src="@/assets/curso/images/tema1/img_9.svg",  alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_9.svg",  alt="", style="width:300px; display:block; margin:0 auto;")
           
 
       .row 
         .col-md-6
           figure
-            img(src="@/assets/curso/images/tema1/img_10.svg",  alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_10.svg",  alt="", style="width:300px; display:block; margin:0 auto;")
         .col-md-6.mb-4.mb-md-0
           p.mb-3 Al tener unos gastos no previstos por $40.000 se tuvo que sobrepasar el presupuesto inicial en pro de la realización de la fiesta. 
 
@@ -189,7 +193,7 @@
       
         .col-md-6
           figure
-            img(src="@/assets/curso/images/tema1/img_11.svg",  alt="", style="width:200px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_11.svg",  alt="", style="width:300px; display:block; margin:0 auto;")
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-md-8.col-lg-8.col-xl-10
@@ -207,7 +211,7 @@
             
         p.mb-3 Los indicadores ayudan a reflejar datos veraces y confiables, permitiendo medir y hacer seguimiento de los cumplimientos y así no solo controlar, sino intervenir en el momento correcto para realizar las mejoras a tiempo, logrando el éxito de la gestión, con cifras y porcentajes. 
 
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+      .col-lg-6.mb-5.mb-lg-0.mb-4
           img.my-3(src="@/assets/curso/images/tema1/img_12.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
  
     .row.justify-content-center.align-items-center.mb-5
@@ -217,7 +221,7 @@
             img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:450px; display:block; margin:0 auto;")
           .tarjeta.color-avatar
             .p-4
-              h2 ¿Por qué es importante medir? 
+              h4 ¿Por qué es importante medir? 
               p Porque permite interpretar lo que está ocurriendo en la organización y tomar las medidas necesarias cuando las variables se salen de los límites, para evaluar las consecuencias en el menor tiempo posible y definir los cambios que conlleven a mejoras inmediatas o mejoras proyectadas en el tiempo.  
     p Los criterios para satisfacer los indicadores deben ser: 
       .row.justify-content-center.align-items-center.p-4
@@ -286,8 +290,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T8fVG_n23Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     p.mb-5 Son infinitas las características o atributos de una herramienta digital como Excel, pero solo se mencionan las más utilizadas:
     .row.justify-content-center.align-items-center.mb-5
@@ -326,7 +329,7 @@
                   h3.mb-1.text-white Documento: Presupuesto familiar
                   p.text-small.text-white  En el presente archivo encontrará una plantilla básica, que le permitirá realizar ejercicios básicos en Excel, sobre la planeación de un presupuesto familiar. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Plantilla_planeador_presupuesto_familiar.xlsx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
