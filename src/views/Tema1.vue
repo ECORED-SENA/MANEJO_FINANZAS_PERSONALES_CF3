@@ -253,40 +253,6 @@
 
           p.text-small(numero="5" titulo="Indicadores de gestión") Está relacionado con las razones que permiten administrar realmente un proceso u operaciones.#[BR] <b>Ejemplo:</b> Gestión en gerencia de proyectos, el costo real del trabajo realizado donde es la métrica la que ayuda a una organización a identificar el costo de las actividades realizadas hasta su terminación.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-        .jumbotron.p-4
-          h4 Indicadores de cumplimiento
-            p.mb-4 Están relacionados con la razón que indica el grado de consecución de las tareas y objetivos.
-
-            p <b>Ejemplo:</b> el cumplimiento de los programas encargados.
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-        .jumbotron.p-3
-          h4 Indicadores de evaluación
-            p.mb-3 Aquí se mide el rendimiento que se tiene de una tarea o proceso, se encuentran relacionados con los métodos y ayudan a identificar las fortalezas, debilidades y mejoras.
-
-          p <b>Ejemplo</b> la evaluación durante el proceso de pedidos.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-        .jumbotron.p-3
-          h4 Indicadores de eficiencia
-            p.mb-2 Se debe tener en cuenta que la eficiencia tiene que ver con la capacidad de cumplimiento  y actitud para llevar a cabo una tarea, con el mínimo de los recursos; los cuales están relacionados con la razón que indican los recursos invertidos en el  logro de tareas.
-
-            p <b>Ejemplo:</b> tiempo de fabricación de un producto u entrega de proyecto.
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-        .jumbotron.p-4
-          h4 Indicadores de eficacia
-            p.mb-5 La eficacia se relaciona en conseguir los resultados esperados de forma satisfactoria, tienen como relación las razones que indican la capacidad o acierto en la consecución de los trabajos.
-
-          p <b>Ejemplo:</b> la satisfacción del cliente con relación a los pedidos.
-    .row
-      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-        .jumbotron.p-3
-          h4 Indicadores de gestión
-            p.mb-3 Está relacionado con las razones que permiten administrar realmente un proceso u operaciones.
-
-            p <b>Ejemplo:</b> gestión en gerencia de proyectos, el costo real del trabajo realizado donde es la métrica la que ayuda a una organización a identificar el costo de las actividades realizadas hasta su terminación.
-
     p.mb-5 Algunos ejemplos de aplicación de indicadores de gestión serían en:
 
     .row.mb-5
