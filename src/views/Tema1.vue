@@ -290,7 +290,7 @@
 
     figure.mb-5
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/T8fVG_n23Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Son infinitas las características o atributos de una herramienta digital como Excel, pero solo se mencionan las más utilizadas:
     .row.justify-content-center.align-items-center.mb-5
