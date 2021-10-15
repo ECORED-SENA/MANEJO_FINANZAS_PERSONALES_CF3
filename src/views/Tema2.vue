@@ -41,7 +41,7 @@
 
     Separador 
     #t_2_1.titulo-segundo
-      .h4 2.1 Informes y mejoras 
+      h2 2.1 Informes y mejoras 
 
     p.mb-3 Gestionar las mejoras en los informes presupuestales permite crear una trazabilidad de la operación, dejando huella de los resultados, con la finalidad de prever y estar preparados ante situaciones futuras. De igual manera, los registros o bitácoras ayudan a analizar situaciones para determinar mejoras constantes. 
 
@@ -49,37 +49,37 @@
 
     p.mb-5 Para realizar un informe se debe tener en cuenta la siguiente información: 
 
-    SlyderE(indicadores="derecha")
-      .row.fondo-3.p-5
+    SlyderE(indicadores="derecha").fondo-3
+      .row.p-5
         .col-md-6.mb-4.mb-md-0
           p Debe ser claro, concreto y objetivo, no solo en los términos de contenido sino también en cómo deben ser presentados visualmente los datos, debido a que algunos deben ser ajustados a los sistemas de gestión de calidad o sistema contable de cada organización. 
 
           p Luego, la información debe ser filtrada y depurada, para que lo que se vaya  a exponer sea de interés general.
         .col-md-6.mb-4.mb-md-0
-          img(src="@/assets/curso/images/tema2/img_5.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+          img(src="@/assets/curso/images/tema2/img_5.svg" alt="", style="width:100%")
 
-      .row.fondo-3.p-5
+      .row.p-5
         .col-md-6.mb-4.mb-md-0
           p Existen elementos que se deben tener presentes cuando se elabora un informe como: portada, introducción, antecedentes, problematización, objetivos, justificación, conclusión y bibliografía.
         .col-md-6.mb-4.mb-md-0
-          img(src="@/assets/curso/images/tema2/img_6.svg" alt="", style="width:400px; display:block; margin:0 auto;")
-
+          img(src="@/assets/curso/images/tema2/img_6.svg" alt="", style="width:100%")
     
-      .row.fondo-3.p-5
+      .row.p-5
         .col-md-6.mb-4.mb-md-0
           p Los tipos de informes pueden ser: científicos, de divulgación, técnicos, mixtos, expositivos, analíticos y persuasivos. En un informe escrito prima el lenguaje formal e informativo, con una fuerte carga de objetividad y se usa para conocer hechos ya acontecidos y anticipar lo que puede pasar.
         .col-md-6.mb-4.mb-md-0
-          img(src="@/assets/curso/images/tema2/img_7.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+          img(src="@/assets/curso/images/tema2/img_7.svg" alt="", style="width:100%")
+     
 
-      .row.fondo-3.p-5
+      .row.p-5
         .col-md-6.mb-4.mb-md-0
           p Cuando se realiza un plan de mejora en algún informe se toman medidas de cambio para mejorar su rendimiento; en donde de acuerdo con los objetivos diseñar unas acciones y nombrar los responsables en cada actuación, disponer de recursos para llevar a cabo dicho plan, prever el procedimiento o método del trabajo, establecer fechas y algo muy importante un método de comprobación para saber si se están cumpliendo los objetivos propuestos. Pero lo más importante es que el informe permita dar a conocer la situación actual y futura del presupuesto proyectado.
         .col-md-6.mb-4.mb-md-0
-          img(src="@/assets/curso/images/tema2/img_8.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+          img(src="@/assets/curso/images/tema2/img_8.svg" alt="", style="width:100%;")
 
     Separador
     #t_2_2.titulo-segundo
-      .h4 2.2 Análisis de posibles escenarios
+      h2 2.2 Análisis de posibles escenarios
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-5.mb-lg-0
@@ -193,16 +193,17 @@
                     p.mb-3.text-small Lo anterior, genera material para ser analizado y tomar la mejor decisión de las opciones propuestas. 
 
     #t_2_3.titulo-segundo
-      .h4 2.3 Seguimiento y control
+      h2 2.3 Seguimiento y control
 
-    .row.justify-content-center.align-items-center.fondo-9.p-3.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-7.mb-4
-        p.mb-3 Según pasa el tiempo se tiende a dejar de seguir y controlar funciones que ya se sabe que se están realizando de manera óptima y precisa, esto es peligroso, ya que si por cualquier eventualidad algunos de los diferentes procesos no se llevan como es debido, puede peligrar el cumplimiento de las metas u objetivos planteados en un principio. 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg.order-2.order-lg-1
+        .custom_box_right    
+          p Según pasa el tiempo se tiende a dejar de seguir y controlar funciones que ya se sabe que se están realizando de manera óptima y precisa, esto es peligroso, ya que si por cualquier eventualidad algunos de los diferentes procesos no se llevan como es debido, puede peligrar el cumplimiento de las metas u objetivos planteados en un principio.
 
-        p.mb-3 Por esto, es importante el seguimiento y control, lo cual ayuda a obtener los objetivos, tanto en la vida cotidiana como en la empresa, de manera más precisa y sin incidentes desalentadores.
-      .col-12.col-md-4.col-lg-6.col-xl-5.mb-3
-        img(src="@/assets/curso/images/tema2/img_4.png" alt='AvatarTop', style="width:450px; display:block; margin:-120px 10rem;")
-    br
+          p.mb-3 Por esto, es importante el seguimiento y control, lo cual ayuda a obtener los objetivos, tanto en la vida cotidiana como en la empresa, de manera más precisa y sin incidentes desalentadores.
+      .col-auto.onTop.order-1.order-lg-2
+        img(src="@/assets/curso/images/tema2/img_4.png" alt='AvatarTop', style="width:450px;").m-auto    
+    
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar

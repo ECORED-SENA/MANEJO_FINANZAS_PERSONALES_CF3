@@ -94,11 +94,131 @@
     color: #FFFFFF
 .boton *, .boton--sm * 
     color: #FFFFFF
-.banner-interno__titulo__icono
-	background-color: #12263F !important
+
 .barra-avance__boton--regresar span 
   color: #FFFFFF !important
 
+.banner-interno__titulo__icono
+  i
+    color: #12263F !important
 
+//color gradiente
+.color-gradient
+  background: rgb(36,99,142);
+  background: linear-gradient(-90deg, rgba(36,99,142,1) 0%, rgba(46,157,170,1) 100%);
+
+.crd-cyan
+  padding: 1.5rem
+  background-color:#D7EFF6
+
+.clr-cyan  
+  background-color:#D7EFF6
+
+// CUSTOM BOX - RIGHT
+.custom_box_right   
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #D7EFF6
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: 100%
+    width: 50%
+    height: 100%
+    background-color: #D7EFF6
+    z-index: 0
+
+.alignLeft
+  text-align: left !important
+
+// CUSTOM BOX - LEFT
+.custom_box_left     
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #D7EFF6
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 50%
+    height: 100%
+    background-color: #D7EFF6
+    z-index: 0
+
+.custom_box_left_2    
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #D7EFF6
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -180px
+    width: 180px
+    height: 100%
+    background-color: #D7EFF6
+    z-index: 0
+
+
+.onTop
+  position: relative
+  z-index: 10
+    
+@media screen and ( max-width: 980px )
+  .custom_box_right   
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #D7EFF6
+    p
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
+      height: 215px
+      background-color: #D7EFF6
+      z-index: 0
+
+  .custom_box_left  
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #D7EFF6
+    p
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -215px
+      left: 0
+      width: 100%
+      height: 215px
+      background-color: #D7EFF6
+      z-index: 0
+
+  .custom_box_left_2  
+    position: relative 
+    padding: 2.5rem 1.5rem 
+    background-color: #D7EFF6
+    p
+      position: relative 
+    &:before 
+      content: ""
+      position: absolute
+      top: -165px
+      left: 0
+      width: 100%
+      height: 165px
+      background-color: #D7EFF6
+      z-index: 0
 
 

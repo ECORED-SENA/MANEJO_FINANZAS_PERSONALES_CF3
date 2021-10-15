@@ -6,35 +6,24 @@
       .titulo-principal__numero
         span 1
       h1 Análisis de la información presupuestal
-    br
-    br
-    br
-    .row.align-items-center.fondo-9.p-3.mb-5.d-none.d-lg-block
-      .col-lg-10.mb-3.mb-lg-0.d-none.d-lg-block
-        p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
-        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px; display:block; margin:-313px 46rem;")
-    .row.mb-5
-      .col-lg-11.d-block.d-lg-none
-        .tarjeta-avatar
-          img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop')
-          .tarjeta.fondo-14
-            .p-4
-              p Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
-      
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg.order-2.order-lg-1
+        .custom_box_right    
+          p.mb-0 Cuando ya se tienen elaborados los presupuestos es prioritario realizar un análisis de estos, que permita minimizar riesgos y maximizar utilidades a futuro, por ello, se sugiere antes de realizar cualquier análisis, comprender que pueden existir unas variables a la hora de revisar prioridades, como se muestra en la siguiente figura:
+      .col-auto.onTop.order-1.order-lg-2
+        img(src="@/assets/curso/images/tema1/img_1.png" alt='AvatarTop', style="width:450px;").m-auto 
+
     p.BorTit.mb-5 Figura 1 Análisis de gastos
+
+    .row.justify-content-center.align-items-center      
+      .col-auto.onTop
+        img(src="@/assets/curso/images/tema1/img_2.svg" alt='AvatarTop', style="width:450px;").m-auto     
+      .col-lg
+        .custom_box_left     
+          p.mb-0 Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia.   
   
-    .row
-      .col-lg-12.d-none.d-lg-block
-        .row.d-none.d-lg-block
-          .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
-            img(src="@/assets/curso/images/tema1/img_2.svg" alt="AvatarTop", style="width:470px; display:block; margin:-1rem -1rem;")
-        .row.justify-content-right.fondo-13.p-3.mb-5
-          .col-lg-3
-            p 
-          .col-lg-9.mb-3.mb-lg-0
-            p Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia. 
+    
     .row.mb-5
       .col-lg-11.d-block.d-lg-none
         .tarjeta-avatar
@@ -44,7 +33,7 @@
               p Esta diferenciación es propia de cada hogar, negocio o empresa, por ejemplo, los gastos urgentes no importantes, lo serán para una empresa, mientras para otra puede que no; todo depende de la naturaleza del negocio y/o forma de funcionar, de ahí la importancia de analizar con respecto a cada organización o familia. 
     Separador 
     #t_1_1.titulo-segundo
-      .h4 1.1 Análisis del ciclo contable
+      h2 1.1 Análisis del ciclo contable
 
     p.mb-3 El proceso contable dentro de una organización es de vital importancia porque conlleva a un propósito de organizar, registrar y analizar los movimientos realizados por un periodo determinado, suministrando la información veraz, confiable y oportuna, que permita determinar utilidades y pérdidas. Este proceso es de suma rigurosidad porque asegura que los datos en los estados financieros fueron realizados correctamente y que los errores están totalmente corregidos, lo cual se consigue realizando los pasos del ciclo.
 
@@ -62,19 +51,26 @@
 
     .jumbotron-1.p-5
       .row.justify-content-center.align-items-center.fondo-1.mb-5
-        .col-lg-12.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_4.svg" alt="", style="width:1000px; display:block; margin:0 auto;")
+        .col-lg-3.mb-4.mb-lg-0
+          img(src="@/assets/curso/images/tema1/img_4A.svg" alt="", style="width:250px;").m-auto       
+        .col-lg-3.mb-4.mb-lg-0
+          img(src="@/assets/curso/images/tema1/img_4B.svg" alt="", style="width:250px;").m-auto       
+        .col-lg-3.mb-4.mb-lg-0
+          img(src="@/assets/curso/images/tema1/img_4C.svg" alt="", style="width:250px;").m-auto       
+        .col-lg-3.mb-4.mb-lg-0
+          img(src="@/assets/curso/images/tema1/img_4D.svg" alt="", style="width:250px;").m-auto       
+            
 
       p.mb-3 Luego de hacer el cierre se puede apreciar que del valor inicial se usaron $200.000 para compras, a su vez, vendimos lo comprado por $250.000, obteniendo así una utilidad bruta de $50.000, pero como se presentaron unos gastos de $10.000, la utilidad neta es de $40.000, iniciando así el siguiente ciclo.
 
       p.mb-3 Gracias a lo anterior, se pudo verificar que existió utilidad entre el producto comprado y vendido; es así que las decisiones tomadas ya parten con base en los resultados positivos, que serán punto de partida para el siguiente ciclo contable.
 
-    Separador 
-
-    p.mb-5 El siguiente recurso presenta qué es el análisis de presupuesto, cuál es su interpretación y lo que se debe tener presente en el momento de comenzar a proyectar un presupuesto.
+    Separador    
     
     #t_1_2.titulo-segundo
-      .h4 1.2 Análisis e interpretación del presupuesto
+      h2 1.2 Análisis e interpretación del presupuesto
+
+    p El siguiente recurso presenta qué es el análisis de presupuesto, cuál es su interpretación y lo que se debe tener presente en el momento de comenzar a proyectar un presupuesto.
     
     SlyderE(indicadores="derecha")
       .row.fondo-10.p-5
@@ -162,7 +158,7 @@
               | Demás cosas necesarias para la realización de la fiesta: $50.000
 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-6.mb-4.mb-md-0.alignLeft
           p Gracias a la anterior investigación se tiene pronosticado (presupuestado) que en la fiesta se tendrán que gastar $200.000 para su realización. Ahora, a medida que se van comprando las cosas y se va organizando el evento, surgen imprevistos que no se estimó al inicio del ejercicio, tales como:
           ul.lista-ul--color
               li 
@@ -176,8 +172,7 @@
                 | Logística: $5.000
         .col-md-6
           figure
-            img(src="@/assets/curso/images/tema1/img_9.svg",  alt="", style="width:300px; display:block; margin:0 auto;")
-          
+            img(src="@/assets/curso/images/tema1/img_9.svg",  alt="", style="width:300px; display:block; margin:0 auto;")          
 
       .row 
         .col-md-6
@@ -188,7 +183,7 @@
 
           p Si se traslada esto a un ambiente emprendedor, el proyecto que según el presupuesto se podría realizar con $200.000 terminó realizándose con $240.000. Lo anterior, gracias a problemas que demandaron más recursos, recursos que no se proponían al principio, pero que al final se pudo solucionar. 
       .row
-        .col-md-6.mb-4.mb-md-0
+        .col-md-6.mb-4.mb-md-0.alignLeft
           p El paso siguiente es buscar el origen del problema para no volver a cometerlo, para este caso se aprecia que el estudio de mercado no era fiable y fue hecho con recursos casi nulos y en un tiempo precario, lo que llevó a que la información estuviera incompleta y las decisiones que se tomaron con base en esa información fueran equivocadas.
       
         .col-md-6
@@ -202,7 +197,7 @@
 
     Separador 
     #t_1_3.titulo-segundo
-      .h4 1.3 Indicadores de gestión
+      h2 1.3 Indicadores de gestión
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-5.mb-lg-0
         p.mb-3 Cuando se habla de indicadores de gestión se hace referencia a la forma de medir si una empresa, proyecto o persona está cumpliendo y/o logrando las metas u objetivos propuestos.
@@ -212,17 +207,17 @@
         p.mb-3 Los indicadores ayudan a reflejar datos veraces y confiables, permitiendo medir y hacer seguimiento de los cumplimientos y así no solo controlar, sino intervenir en el momento correcto para realizar las mejoras a tiempo, logrando el éxito de la gestión, con cifras y porcentajes. 
 
       .col-lg-6.mb-5.mb-lg-0.mb-4
-          img.my-3(src="@/assets/curso/images/tema1/img_12.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
+          img.my-3(src="@/assets/curso/images/tema1/img_13.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
+
+    .row.justify-content-center.align-items-center.mb-5    
+      .col-auto.onTop
+        img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:350px;").m-auto     
+      .col-lg-6
+        .custom_box_left_2     
+          h4 ¿Por qué es importante medir? 
+          p Porque permite interpretar lo que está ocurriendo en la organización y tomar las medidas necesarias cuando las variables se salen de los límites, para evaluar las consecuencias en el menor tiempo posible y definir los cambios que conlleven a mejoras inmediatas o mejoras proyectadas en el tiempo.
  
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:450px; display:block; margin:0 auto;")
-          .tarjeta.color-avatar
-            .p-4
-              h4 ¿Por qué es importante medir? 
-              p Porque permite interpretar lo que está ocurriendo en la organización y tomar las medidas necesarias cuando las variables se salen de los límites, para evaluar las consecuencias en el menor tiempo posible y definir los cambios que conlleven a mejoras inmediatas o mejoras proyectadas en el tiempo.  
+    
     p Los criterios para satisfacer los indicadores deben ser: 
       .row.justify-content-center.align-items-center.p-4
         ul.lista-ul--color
@@ -284,23 +279,32 @@
 
     Separador 
     #t_1_4.titulo-segundo
-      .h4 1.4 Excel y otras herramientas para la elaboración del presupuesto
+      h2 1.4 Excel y otras herramientas para la elaboración del presupuesto
 
-    p.mb-5 La hoja de cálculo más utilizada en la elaboración de presupuestos es Excel. En el siguiente video se hace una presentación de este programa.
+    p.mb-5 
 
-    figure.mb-5
-      .video
-         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.clr-cyan.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/componentes/info.svg")
+
+        .col-md.col-lg-6
+          h3 Infografía
+          p.mb-4 La hoja de cálculo más utilizada en la elaboración de presupuestos es Excel. En el siguiente enlace se hace una presentación de este programa.
+          
+          a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/excel_infografia_b.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download    
 
     p.mb-5 Son infinitas las características o atributos de una herramienta digital como Excel, pero solo se mencionan las más utilizadas:
     .row.justify-content-center.align-items-center.mb-5
       .col-12.lg-6.mb-5.mb-lg-0
-        .jumbotron-2
+        .jumbotron-2.py-5
           LineaTiempoB.fondo.p-4.mb-5(:datos="datosLineaTiempoB")
 
-        p.mb-3 Del nivel de manejo y experticia de cada usuario dependerá la magnitud y aprovechamiento de esta aplicación, desde presupuestos sencillos en una tabla pequeña hasta modelos financieros mediante programación especializada, una herramienta dispuesta a desarrollar operaciones según la demanda de las personas. 
+    p.mb-3 Del nivel de manejo y experticia de cada usuario dependerá la magnitud y aprovechamiento de esta aplicación, desde presupuestos sencillos en una tabla pequeña hasta modelos financieros mediante programación especializada, una herramienta dispuesta a desarrollar operaciones según la demanda de las personas. 
 
-        p.mb-5 Además de Excel, existen infinidad de herramientas útiles con diferentes modalidades y aplicaciones, según cada necesidad y/o situación empresarial o personal, a continuación se mencionan algunos ejemplos:
+    p.mb-5 Además de Excel, existen infinidad de herramientas útiles con diferentes modalidades y aplicaciones, según cada necesidad y/o situación empresarial o personal, a continuación se mencionan algunos ejemplos:
         
     .row.justify-content-center.align-items-center.mb-5
       .col-2.lg-4.mb-5.mb-lg-0
@@ -319,23 +323,23 @@
             | PIM Xtreme.
       
       .col-8.mt-5.ms-5
-        .tarjeta.color-custom-2.p-3.mb-5
+        .tarjeta.color-gradient.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/images/tema1/ico_9.svg", alt= "",style="width:150px; display:block; margin:0 auto;")
+              img(src="@/assets/curso/images/tema1/ico_9.svg", alt= "",style="width:90px;").m-auto
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Documento: Presupuesto familiar
                   p.text-small.text-white  En el presente archivo encontrará una plantilla básica, que le permitirá realizar ejercicios básicos en Excel, sobre la planeación de un presupuesto familiar. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Plantilla_planeador_presupuesto_familiar.xlsx')" target="_blank")
+                  a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Plantilla_planeador_presupuesto_familiar.xlsx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
     Separador 
     #t_1_5.titulo-segundo
-      .h4 1.5 Ética y responsabilidad
+      h2 1.5 Ética y responsabilidad
     p.mb-3 En el mercado financiero el comportamiento moral y ético de un profesional va más allá de la posición individual-personal del ser humano. Por ello, es importante como profesional tener en cuenta algunas características que van ligadas a la realización de actividades laborales dentro de un negocio u organización, como se muestra en la siguiente figura:
       .jumbotron-3
         .row.justify-content-center.align-items-center.fondo-2.p-4.mb-5
@@ -377,11 +381,16 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-md-8.col-lg-8.col-xl-10
         .cajon.color-custom.p-4.mb-4
-          p.mb-0 Hoy en día, gracias al gran crecimiento de plataformas financieras digitales se ha cuestionado el concepto de ética y responsabilidad global, porque muchas veces prevalece el crecimiento exponencial financiero de un producto, afectando un entorno o comunidad, y es ahí donde el actuar debe ser íntegro y desligado a intereses personales, porque no solo una omisión de información, sino una mala decisión puede llevar a la quiebra a una empresa y/o nación.
+          p.mb-0 Hoy en día, gracias al gran crecimiento de plataformas financieras digitales se ha cuestionado el concepto de ética y responsabilidad global, porque muchas veces prevalece el crecimiento exponencial financiero de un producto, afectando un entorno o comunidad, y es ahí donde el actuar debe ser íntegro y desligado a intereses personales, porque no solo una omisión de información, sino una mala decisión puede llevar a la quiebra a una empresa y/o nación.    
 
-    .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_20.svg" alt="", style="width:1000px; display:block; margin:0 auto;")
+    .row.justify-content-center.align-items-center      
+      .col-auto.onTop
+        img(src="@/assets/curso/images/tema1/img_24.png" alt='AvatarTop', style="width:450px;").m-auto     
+      .col-lg
+        .custom_box_left     
+          p.mb-4 Para finalizar es importante analizar la siguiente pregunta:
+          figure
+            img(src="@/assets/curso/images/tema1/quote.svg", alt="alt", style="width:550px;").m-auto
 
 
 
