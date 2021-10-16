@@ -207,7 +207,7 @@
         p.mb-3 Los indicadores ayudan a reflejar datos veraces y confiables, permitiendo medir y hacer seguimiento de los cumplimientos y así no solo controlar, sino intervenir en el momento correcto para realizar las mejoras a tiempo, logrando el éxito de la gestión, con cifras y porcentajes. 
 
       .col-lg-6.mb-5.mb-lg-0.mb-4
-          img.my-3(src="@/assets/curso/images/tema1/img_13.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
+          img.my-3(src="@/assets/curso/images/tema1/img_12.svg", alt= "",style="width:400px; display:block; margin:0 auto;") 
 
     .row.justify-content-center.align-items-center.mb-5    
       .col-auto.onTop
