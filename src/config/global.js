@@ -48,7 +48,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
-              '1.4 Excel y otras herramientas para la elaboración del presupuesto',
+              'Excel y otras herramientas para la elaboración del presupuesto',
             hash: 't_1_4',
           },
           {
