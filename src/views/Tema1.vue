@@ -341,17 +341,17 @@
     #t_1_5.titulo-segundo
       h2 1.5 Ética y responsabilidad
     p.mb-3 En el mercado financiero el comportamiento moral y ético de un profesional va más allá de la posición individual-personal del ser humano. Por ello, es importante como profesional tener en cuenta algunas características que van ligadas a la realización de actividades laborales dentro de un negocio u organización, como se muestra en la siguiente figura:
-      .jumbotron-3
-        .row.justify-content-center.align-items-center.fondo-2.p-4.mb-5
-          .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-            p.BorTit.mb-5 Figura 4 Etica profesional
-            figure
-              img(src='@/assets/curso/images/tema1/img_18.svg' alt="", style="width:450px; display:block; margin:auto 0;")
-          .col-lg-6.mb-5.mb-lg-0  
-            br
-            p.mb-3 Para la elaboración de un presupuesto, para realizar el seguimiento y para proponer mejoras, es importante que los responsables tanto de proyectar como de auditar, deben siempre pensar en el bienestar de la organización y del entorno, más del propio como persona. 
 
-            p.mb-3 Por este motivo, la transparencia, la honestidad, el sentido de pertenencia y la buena fe son competencias permanentes en las personas encargadas del presupuesto. De ellos depende que la información, el comportamiento y la tendencia del ejercicio financiero dependa de funciones realizadas con total responsabilidad ético y profesional. 
+    .customBG.p-5.mb-5
+      .row.justify-content-center.align-items-center
+        .col-auto.mb-5.mb-lg-0
+          p.BorTit.mb-3 Figura 4 Etica profesional
+          figure
+            img(src='@/assets/curso/images/tema1/img_18.svg' alt="", style="width:500px").m-auto
+        .col-lg.mb-5.mb-lg-0            
+          p Para la elaboración de un presupuesto, para realizar el seguimiento y para proponer mejoras, es importante que los responsables tanto de proyectar como de auditar, deben siempre pensar en el bienestar de la organización y del entorno, más del propio como persona. 
+          p.mb-0 Por este motivo, la transparencia, la honestidad, el sentido de pertenencia y la buena fe son competencias permanentes en las personas encargadas del presupuesto. De ellos depende que la información, el comportamiento y la tendencia del ejercicio financiero dependa de funciones realizadas con total responsabilidad ético y profesional.
+    
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12
@@ -420,7 +420,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Permite almacenar grandes cantidades de información, garantizando un respaldo ante contingencias y riesgos de pérdida de información.Minimiza el tiempo de los resultados de operaciones, para realizar análisis y toma de decisiones.',
+          'Permite almacenar grandes cantidades de información, garantizando un respaldo ante contingencias y riesgos de pérdida de información. Minimiza el tiempo de los resultados de operaciones, para realizar análisis y toma de decisiones.',
         icono: require('@/assets/curso/images/tema1/ico_2.svg'),
       },
       {

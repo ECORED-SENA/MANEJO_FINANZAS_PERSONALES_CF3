@@ -128,11 +128,12 @@ export default {
     },
     {
       referencia:
-        'Llorente, J. M. (2016). El presupuesto personal o familiar. Tipos de ingresos. InbestMe. https://www.inbestme.com/blog/el-presupuesto-ingresos/',
+        'Llorente, J. M. (2016). El presupuesto personal o familiar. Tipos de ingresos. InbestMe.  ',
+      link: 'https://www.inbestme.com/blog/el-presupuesto-ingresos/',
     },
     {
       referencia:
-        'Nubox. (s.f.). Flujo de efectivo versus flujo de caja: ¿cuál es la diferencia? Nubox',
+        'Nubox. (s.f.). Flujo de efectivo versus flujo de caja: ¿cuál es la diferencia? Nubox.  ',
       link:
         'https://blog.nubox.com/empresas/flujo-de-efectivo-vs-flujo-de-caja',
     },
@@ -315,6 +316,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
