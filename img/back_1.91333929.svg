@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="450.155" viewBox="0 0 1240 450.155">
+  <defs>
+    <linearGradient id="linear-gradient" x1="20.676" y1="1.885" x2="22.624" y2="2.739" gradientUnits="objectBoundingBox">
+      <stop offset="0.101" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231f20" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.248" y1="0.395" x2="8.165" y2="2.21" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="13.861" y1="0.247" x2="14.932" y2="-2.525" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231f20" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_91692" data-name="Grupo 91692" transform="translate(620 -2018.055)">
+    <g id="Grupo_89858" data-name="Grupo 89858" transform="translate(-800 -1644.945)">
+      <rect id="Rectángulo_35342" data-name="Rectángulo 35342" width="1240" height="450" rx="21" transform="translate(180 3663)" fill="#e8f6fa"/>
+      <g id="Grupo_88906" data-name="Grupo 88906" transform="translate(2389.478 3633)">
+        <g id="Grupo_87630" data-name="Grupo 87630" transform="translate(-2208.706 30)" style="mix-blend-mode: overlay;isolation: isolate">
+          <path id="Trazado_101404" data-name="Trazado 101404" d="M-2212.052,187.515v1.766l111.9-111.9a28.979,28.979,0,0,0,0-40.939L-2136.588,0h-1.766l37.322,37.321a27.726,27.726,0,0,1,0,39.174Z" transform="translate(2212.052)" fill="#fff"/>
+        </g>
+        <path id="Trazado_101405" data-name="Trazado 101405" d="M-2206.478,163.426V529.06l164.37-164.371a26.1,26.1,0,0,0,0-36.893Z" transform="translate(-3 -78.788)" opacity="0.61" fill="url(#linear-gradient)"/>
+        <path id="Trazado_101406" data-name="Trazado 101406" d="M-1584.256,458.122h351.948L-1390.526,299.9a25.117,25.117,0,0,0-35.512,0Z" transform="translate(214.698 22.033)" opacity="0.61" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_101407" data-name="Trazado 101407" d="M-1590.727.979l70.218,70.218a39.549,39.549,0,0,0,55.937,0L-1394.354.979Z" transform="translate(168.841 29.021)" opacity="0.61" fill="url(#linear-gradient-3)"/>
+      </g>
+      <rect id="Rectángulo_35345" data-name="Rectángulo 35345" width="126" height="126" rx="15" transform="translate(865.029 3865.267) rotate(45)" fill="#96d6e8" opacity="0.4"/>
+      <rect id="Rectángulo_35346" data-name="Rectángulo 35346" width="59.371" height="59.371" rx="15" transform="translate(1238.198 3711.785) rotate(45)" fill="#b9e4ef"/>
+    </g>
+  </g>
+</svg>
